@@ -18,4 +18,4 @@ set hlsearch	" highlight all search results
 set ignorecase	" disable case senstive search
 set incsearch	" show incremental search results
 set noswapfile	" disable swap file
-set scrolloff=8
+set scrolloff=8 " scroll even when the cursor is not at the end
