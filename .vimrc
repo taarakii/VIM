@@ -19,3 +19,7 @@ set ignorecase	" disable case senstive search
 set incsearch	" show incremental search results
 set noswapfile	" disable swap file
 set scrolloff=8 " scroll even when the cursor is not at the end
+
+" Setting the key binding
+" Press j and k at the same time to escape
+inoremap <silent> jk <ESC>
