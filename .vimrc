@@ -23,3 +23,9 @@ set scrolloff=8 " scroll even when the cursor is not at the end
 " Setting the key binding
 " Press j and k at the same time to escape
 inoremap <silent> jk <ESC>
+inoremap { {}<LEFT>
+inoremap ( ()<LEFT>
+inoremap [ {}<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+
